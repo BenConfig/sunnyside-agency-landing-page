@@ -12,9 +12,7 @@
 
   <body class="font-primary text-lg font-normal">
 
-    <!-- --------------------------------------------------- -->
-    <!--                       Header                        -->
-    <!-- --------------------------------------------------- -->
+    <!-- Header -->
     <header class="h-header-mobile text-center bg-header-mobile bg-cover bg-bottom px-4 xs:bg-header-desktop lg:h-header-desktop lg:pt-4 lg:px-12">
       <nav class="relative flex justify-between items-center pt-4" id="nav" aria-label="Primary">
         <a class="lg:scale-150 lg:ml-6" href="#">
@@ -42,104 +40,92 @@
 
     </header>
 
-    <!-- --------------------------------------------------- -->
-    <!--                 'Transform' Section                 -->
-    <!-- --------------------------------------------------- -->
-    <section class="flex flex-col-reverse md:grid grid-cols-2 items-center">
-      <!-- Text -->
-      <div class="max-w-lg mx-auto text-center py-16 px-6 lg:text-left lg:px-12">
-        <h2 class="font-heading text-3xl font-bolder mb-5 lg:text-4xl lg:leading-snug">Transform your brand</h2>
-        <p class="mb-6 text-custom-gray">We are a full-service creative agency specializing in helping brands grow fast. 
-          Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <a class="learn-more-btn learn-more-btn--transform relative font-heading font-bolder text-sm tracking-widest uppercase" href="#">Learn more</a>
-      </div>
-      <!-- Image -->
-      <img class="w-full object-cover md:hidden" src="./images/mobile/image-transform.jpg" alt="" aria-hidden="true">
-      <img class="hidden md:block w-full h-full object-cover" src="./images/desktop/image-transform.jpg" alt="" aria-hidden="true">
-    </section>
-    
-    <!-- --------------------------------------------------- -->
-    <!--                 'Stand Out' Section                 -->
-    <!-- --------------------------------------------------- -->
-    <section class="flex flex-col-reverse md:grid grid-cols-2 items-center">
-      <!-- Text -->
-      <div class="max-w-lg mx-auto text-center py-16 px-6 lg:text-left lg:px-12">
-        <h2 class="font-heading text-3xl font-bolder mb-5 lg:text-4xl lg:leading-snug">Stand out to the right audience</h2>
-        <p class="mb-6 text-custom-gray">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-        <a class="learn-more-btn learn-more-btn--stand-out relative font-heading font-bolder text-sm tracking-widest uppercase" href="#">Learn more</a>
-      </div>
-      <!-- Image -->
-      <img class="w-full object-cover md:hidden" src="./images/mobile/image-stand-out.jpg" alt="" aria-hidden="true">
-      <img class="hidden md:block -order-1 w-full h-full object-cover" src="./images/desktop/image-stand-out.jpg" alt="" aria-hidden="true">
-    </section>
-
-    <div class="md:grid grid-cols-2">
-      <!-- --------------------------------------------------- -->
-      <!--              'Graphic Design' Section               -->
-      <!-- --------------------------------------------------- -->
-      <section class="section bg-graphic-design-mobile xs:bg-graphic-design-desktop">
-        <h2 class="font-heading text-3xl mb-6">Graphic Design</h2>
-        <p class="max-w-sm mx-auto">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    <main>
+      <!-- 'Transform' Section -->
+      <section class="flex flex-col-reverse md:grid grid-cols-2 items-center">
+        <!-- Text -->
+        <div class="max-w-lg mx-auto text-center py-16 px-6 lg:text-left lg:px-12">
+          <h2 class="font-heading text-3xl font-bolder mb-5 lg:text-4xl lg:leading-snug">Transform your brand</h2>
+          <p class="mb-6 text-custom-gray">We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a class="learn-more-btn learn-more-btn--transform relative font-heading font-bolder text-sm tracking-widest uppercase" href="#">Learn more</a>
+        </div>
+        <!-- Image -->
+        <img class="w-full object-cover md:hidden" src="./images/mobile/image-transform.jpg" alt="" aria-hidden="true">
+        <img class="hidden md:block w-full h-full object-cover" src="./images/desktop/image-transform.jpg" alt="" aria-hidden="true">
+      </section>
+      
+      <!-- 'Stand Out' Section -->
+      <section class="flex flex-col-reverse md:grid grid-cols-2 items-center">
+        <!-- Text -->
+        <div class="max-w-lg mx-auto text-center py-16 px-6 lg:text-left lg:px-12">
+          <h2 class="font-heading text-3xl font-bolder mb-5 lg:text-4xl lg:leading-snug">Stand out to the right audience</h2>
+          <p class="mb-6 text-custom-gray">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <a class="learn-more-btn learn-more-btn--stand-out relative font-heading font-bolder text-sm tracking-widest uppercase" href="#">Learn more</a>
+        </div>
+        <!-- Image -->
+        <img class="w-full object-cover md:hidden" src="./images/mobile/image-stand-out.jpg" alt="" aria-hidden="true">
+        <img class="hidden md:block -order-1 w-full h-full object-cover" src="./images/desktop/image-stand-out.jpg" alt="" aria-hidden="true">
       </section>
 
-      <!-- --------------------------------------------------- -->
-      <!--                'Photography' Section                -->
-      <!-- --------------------------------------------------- -->
-      <section class="section bg-photography-mobile xs:bg-photography-desktop">
-        <h2 class="font-heading text-3xl mb-6">Photography</h2>
-        <p class="max-w-sm mx-auto">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-      </section>
-    </div>
-    
-    <!-- --------------------------------------------------- -->
-    <!--                    Testimonials                     -->
-    <!-- --------------------------------------------------- -->
-    <section class="text-center px-6 py-14 lg:px-12 lg:py-32">
-      <h2 class="font-heading uppercase tracking-heading mb-4 text-custom-light-gray lg:text-xl lg:mb-12">Client testimonials</h2>
-      <!-- Testimonial 1 -->
-      <div class="lg:grid grid-cols-3 gap-6 justify-center">
-        <div class="grid max-w-sm text-center py-9 m-auto">
-          <h3 class="font-heading font-bold mb-1">Emily R.</h3>
-          <p class="text-sm text-custom-light-gray">Marketing Director</p>
-          <p class="-order-1 leading-8 mb-6 text-custom-dark-gray lg:mb-16">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-          <img class="-order-2 w-20 rounded-full m-auto mb-8 lg:mb-14" src="./images/image-emily.jpg" alt="" aria-hidden="true">
-        </div>
-        <!-- Testimonial 2 -->
-        <div class="grid max-w-sm text-center py-9 m-auto">
-          <h3 class="font-heading font-bold mb-1">Thomas S.</h3>
-          <p class="text-sm text-custom-light-gray">Chief Operating Officer</p>
-          <p class="-order-1 leading-8 mb-6 text-custom-dark-gray lg:mb-16">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-          <img class="-order-2 w-20 rounded-full m-auto mb-8 lg:mb-14" src="./images/image-thomas.jpg" alt="" aria-hidden="true">
-        </div>
-        <!-- Testimonial 3 -->
-        <div class="grid max-w-sm text-center py-9 m-auto">
-          <h3 class="font-heading font-bold mb-1">Jennie F.</h3>
-          <p class="text-sm text-custom-light-gray">Business Owner</p>
-          <p class="-order-1 leading-8 mb-6 text-custom-dark-gray lg:mb-16">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-          <img class="-order-2 w-20 rounded-full m-auto mb-8 lg:mb-14" src="./images/image-jennie.jpg" alt="" aria-hidden="true">
-        </div>
-      </div>
-    </section>
+      <div class="md:grid grid-cols-2">
+        <!-- 'Graphic Design' Section -->
+        <section class="section bg-graphic-design-mobile xs:bg-graphic-design-desktop">
+          <h2 class="font-heading text-3xl mb-6">Graphic Design</h2>
+          <p class="max-w-sm mx-auto">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </section>
 
-    <!-- --------------------------------------------------- -->
-    <!--                       Gallery                       -->
-    <!-- --------------------------------------------------- -->
-    <div class="grid grid-cols-2 sm:grid-cols-4" aria-hidden="true">
-      <!-- Mobile images -->
-      <img class="sm:hidden" src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
-      <img class="sm:hidden" src="./images/mobile/image-gallery-orange.jpg" alt="">
-      <img class="sm:hidden" src="./images/mobile/image-gallery-cone.jpg" alt="">
-      <img class="sm:hidden" src="./images/mobile/image-gallery-sugarcubes.jpg" alt="">
-      <!-- Desktop images -->
-      <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
-      <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-orange.jpg" alt="">
-      <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-cone.jpg" alt="">
-      <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
-    </div>
+        <!-- 'Photography' Section -->>
+        <section class="section bg-photography-mobile xs:bg-photography-desktop">
+          <h2 class="font-heading text-3xl mb-6">Photography</h2>
+          <p class="max-w-sm mx-auto">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </section>
+      </div>
+      
+      <!-- Testimonials -->
+      <section class="text-center px-6 py-14 lg:px-12 lg:py-32">
+        <h2 class="font-heading uppercase tracking-heading mb-4 text-custom-light-gray lg:text-xl lg:mb-12">Client testimonials</h2>
+        <!-- Testimonial 1 -->
+        <div class="lg:grid grid-cols-3 gap-6 justify-center">
+          <div class="grid max-w-sm text-center py-9 m-auto">
+            <h3 class="font-heading font-bold mb-1">Emily R.</h3>
+            <p class="text-sm text-custom-light-gray">Marketing Director</p>
+            <p class="-order-1 leading-8 mb-6 text-custom-dark-gray lg:mb-16">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <img class="-order-2 w-20 rounded-full m-auto mb-8 lg:mb-14" src="./images/image-emily.jpg" alt="" aria-hidden="true">
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="grid max-w-sm text-center py-9 m-auto">
+            <h3 class="font-heading font-bold mb-1">Thomas S.</h3>
+            <p class="text-sm text-custom-light-gray">Chief Operating Officer</p>
+            <p class="-order-1 leading-8 mb-6 text-custom-dark-gray lg:mb-16">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <img class="-order-2 w-20 rounded-full m-auto mb-8 lg:mb-14" src="./images/image-thomas.jpg" alt="" aria-hidden="true">
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="grid max-w-sm text-center py-9 m-auto">
+            <h3 class="font-heading font-bold mb-1">Jennie F.</h3>
+            <p class="text-sm text-custom-light-gray">Business Owner</p>
+            <p class="-order-1 leading-8 mb-6 text-custom-dark-gray lg:mb-16">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <img class="-order-2 w-20 rounded-full m-auto mb-8 lg:mb-14" src="./images/image-jennie.jpg" alt="" aria-hidden="true">
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->>
+      <div class="grid grid-cols-2 sm:grid-cols-4" aria-hidden="true">
+        <!-- Mobile images -->
+        <img class="sm:hidden" src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+        <img class="sm:hidden" src="./images/mobile/image-gallery-orange.jpg" alt="">
+        <img class="sm:hidden" src="./images/mobile/image-gallery-cone.jpg" alt="">
+        <img class="sm:hidden" src="./images/mobile/image-gallery-sugarcubes.jpg" alt="">
+        <!-- Desktop images -->
+        <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+        <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-orange.jpg" alt="">
+        <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-cone.jpg" alt="">
+        <img class="w-full hidden sm:block" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+      </div>
+    </main>
     
-    <!-- --------------------------------------------------- -->
-    <!--                       Footer                        -->
-    <!-- --------------------------------------------------- -->
+    <!-- Footer -->
     <footer class="pt-20 px-4 pb-16 bg-footer-bg">
       <!-- Sunnyside logo -->
       <svg class="mx-auto mb-10 scale-150" aria-hidden="true" width="124" height="24"xmlns="http://www.w3.org/2000/svg">
